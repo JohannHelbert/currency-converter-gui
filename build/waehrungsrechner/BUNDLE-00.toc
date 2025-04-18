@@ -1,0 +1,3 @@
+([('waehrungsrechner',
+   '/Users/johannhelbert/currency-converter-gui/dist/waehrungsrechner',
+   'EXECUTABLE')],)
