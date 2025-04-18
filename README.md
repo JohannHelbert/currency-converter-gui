@@ -1,41 +1,28 @@
-# Währungsrechner GUI
+# Währungsrechner für macOS
 
-Ein einfacher Währungsrechner, der die Umrechnung von Beträgen zwischen verschiedenen Währungen ermöglicht. Das Programm verwendet aktuelle Wechselkurse und bietet eine benutzerfreundliche grafische Oberfläche.
+Dies ist eine macOS-Anwendung für die Umrechnung von Währungen. Sie ermöglicht es dir, verschiedene Währungen zu konvertieren.
 
 ## Funktionen
-
-- Währungsumrechnung zwischen mehreren Währungen (z.B. EUR, USD, GBP, JPY, und viele mehr)
-- Eingabe des Betrags und Auswahl der Währungen aus Dropdown-Menüs
-- Anzeige des umgerechneten Betrags
-- Verwendet aktuelle Wechselkurse von einer API
+- Unterstützt mehrere Währungen (EUR, USD, GBP, JPY, usw.)
+- Einfache Benutzeroberfläche
+- Umrechnung erfolgt mit aktuellen Wechselkursen aus dem Internet
 
 ## Installation
+1. Lade die Installationsdatei für macOS herunter.
+2. Öffne die `.dmg`-Datei und ziehe die App in deinen Programme-Ordner.
+3. Starte die Anwendung aus deinem Programme-Ordner.
 
-### Für macOS
+## Unterstützte Währungen
+- EUR - Euro
+- USD - US-Dollar
+- GBP - Britisches Pfund
+- JPY - Japanischer Yen
+- und viele mehr...
 
-1. **Herunterladen der App**
-
-   - Lade die macOS-Version der App von [hier](link-zur-macos-app) herunter.
-
-2. **App starten**
-
-   - Öffne die heruntergeladene `.dmg` Datei und ziehe die App in den Anwendungsordner.
-
-3. **Verwendung**
-   - Starte die App, indem du auf das App-Symbol im Anwendungsordner klickst.
-
-## Verwendung
-
-1. **Betrag eingeben**: Gib den Betrag ein, den du umrechnen möchtest.
-2. **Währungen auswählen**: Wähle die Ausgangswährung ("Von") und die Zielwährung ("Zu").
-3. **Berechnen**: Klicke auf den "Berechnen"-Button, um die Umrechnung durchzuführen. Das Ergebnis wird unter dem Button angezeigt.
-
-## Technologien
-
-- **Tkinter** für die GUI
-- **Requests** für die API-Abfragen
-- **ExchangeRate-API** für die aktuellen Wechselkurse
+## Technologie
+- Python 3.x
+- Tkinter für die Benutzeroberfläche
+- Requests für API-Abfragen
 
 ## Lizenz
-
 Dieses Projekt ist unter der MIT-Lizenz lizenziert.
