@@ -30,7 +30,7 @@ jobs:
         run: pip install pyinstaller
 
       - name: Build .exe for Windows
-        run: pyinstaller --onefile --windowed --icon=dein_icon.ico währungsrechner.py
+        run: pyinstaller --onefile --windowed  waehrungsrechner.py
 
       - name: Upload Windows Installer
         uses: actions/upload-artifact@v2
